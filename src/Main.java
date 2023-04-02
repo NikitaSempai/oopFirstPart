@@ -25,11 +25,11 @@ public class Main {
         };
 
         PrintService printService = new PrintService();
-        printService.print(slizerins[0]);
-        Griffendor.betterStudent(griffendors[0], griffendors[1]);
-        Puffendui.betterStudent(puffenduis[0], puffenduis[1]);
-        Kogtevran.betterStudent(kogtevrans[0], kogtevrans[1]);
-        Slizerin.betterStudent(slizerins[0], slizerins[1]);
-        printService.studentComparison(griffendors[0], slizerins[0]);
+        printService.print(slizerins[0]); // описание студента
+        Griffendor.betterStudent(griffendors[0], griffendors[1]); // сравнение студентов одного факультета
+        Puffendui.betterStudent(puffenduis[0], puffenduis[1]); // сравнение студентов одного факультета
+        Kogtevran.betterStudent(kogtevrans[0], kogtevrans[1]); // сравнение студентов одного факультета
+        Slizerin.betterStudent(slizerins[0], slizerins[1]); // сравнение студентов одного факультета
+        printService.studentComparison(griffendors[0], slizerins[0]); // сравнение студентов по мощности в магии и длине трансгрессии
     }
 }
